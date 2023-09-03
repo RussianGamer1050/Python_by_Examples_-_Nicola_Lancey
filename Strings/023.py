@@ -1,0 +1,5 @@
+string = input("Please enter the nursery rhyme: ")
+print(len(string))
+start = int(input("Enter the starting number: "))
+end = int(input("Enter an end number: "))
+print(string[start-1:end])

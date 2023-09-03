@@ -1,0 +1,5 @@
+f_name = input("Please enter your first name: ")
+s_name = input("Please enter your surname: ")
+length = len(f_name+s_name)
+print(f_name, s_name)
+print(length)

@@ -1,0 +1,10 @@
+books = open('Books.csv', 'a')
+title = input("Please enter a title: ")
+author = input("Enter author: ")
+year = input("Enter the year: ")
+books.write(title + ", " + author + ", " + year + "\n")
+books.close()
+books = open('Books.csv', 'r')
+for row in books:
+    print(row)
+books.close()
